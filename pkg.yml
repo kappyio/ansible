@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: install (or upgrade to) the latest version of htop
+    package: name=htop state=latest state=present
+    package: name=vim state=latest state=present
+

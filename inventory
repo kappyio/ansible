@@ -1,0 +1,13 @@
+rhel1 ansible_host=192.168.2.10 ansible_user=vagrant
+centos1 ansible_host=192.168.2.11 ansible_user=vagrant
+ubuntu1 ansible_host=192.168.2.12 ansible_user=vagrant
+ubuntu2 ansible_host=192.168.2.13 ansible_user=vagrant
+
+[global]
+rhel1 ansible_host=192.168.2.10 ansible_user=vagrant
+centos1 ansible_host=192.168.2.11 ansible_user=vagrant
+ubuntu1 ansible_host=192.168.2.12 ansible_user=vagrant
+ubuntu2 ansible_host=192.168.2.13 ansible_user=vagrant
+
+
+[dbservers]
