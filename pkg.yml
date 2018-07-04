@@ -4,4 +4,5 @@
   - name: install (or upgrade to) the latest version of htop
     package: name=htop state=latest state=present
     package: name=vim state=latest state=present
+    package: name=icdiff state=latest state=present
 

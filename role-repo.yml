@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  -name: fool around and fall in love
+   gather_facts: yes #IMPORTANT
+   remote_user: root
+   roles: 
+     - epel-repository
